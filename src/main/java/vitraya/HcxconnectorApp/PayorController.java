@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PayorController {
 
-    @RequestMapping("/welcome")
+    @RequestMapping("/")
     public String displayHello(){
         String welcomeText="Hello from Payor Connector";
         return welcomeText;
